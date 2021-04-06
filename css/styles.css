@@ -1,0 +1,116 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+
+  color: #fff;
+}
+
+.container-fluid
+{
+  padding: 3% 15%
+}
+
+h1 {
+  font-family: 'Montserrat-black, sans-serif';
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h3 {font-family: 'Montserrat-bold';
+align-items: center;
+
+}
+
+P {
+  color: #8f8f8f;
+}
+
+/* Imgagen */
+
+.imagen {
+  width: 60%;
+  margin-left: 150px;
+  /* transform: rotate(15deg)*/
+  }
+
+  /* Rotación */
+.rotate{
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden;
+
+}
+/* Transformación al pasar el ratón por encima */
+.rotate:hover
+{
+
+/*    transform: scale(1.2, 1.2) rotate(20deg);
+    -ms-transform: scale(1.2, 1.2) rotate(20deg);
+    -webkit-transform:scale(1.2, 1.2) rotate(20deg);
+    -o-transform: scale(1.2, 1.2) rotate(20deg); */
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+
+}
+
+
+/* Navegation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* Downloads Bottom */
+.bottom-download {
+    margin: 5% 3% 5% 0;
+}
+
+
+.fas:before {
+    content: "\f058";
+    color: #ef8172;
+}
+
+.fas:hover {
+
+  filter: saturate(10);
+}
+
+/* Features session */
+
+
+#features {
+  padding: 8% 16%;
+}
+
+.feature-box {
+text-align: center;
+padding: 5%;
+}
